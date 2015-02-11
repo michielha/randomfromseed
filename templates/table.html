@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="/static/styles.css">
+    <title></title>
+</head>
+<body>
+<table>
+{% for y in rows %}
+        {% for x in y %}
+            <div class="content" style="background-color: rgb({{ x }},0,0)"></div>
+        {% endfor %}
+    </br>
+{% endfor %}
+</table>
+
+</body>
+</html>

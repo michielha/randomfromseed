@@ -1,0 +1,9 @@
+div {
+    display:inline-block;
+    width: 20px;
+    height: 20px;
+}
+
+body {
+  line-height: 0.0;
+}
